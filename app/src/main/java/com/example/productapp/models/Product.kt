@@ -1,8 +1,8 @@
 package com.example.productapp.models
 
 data class Product(
-    val limit: Int,
     val products: List<ProductX>,
+    val total: Int,
     val skip: Int,
-    val total: Int
+    val limit: Int
 )
